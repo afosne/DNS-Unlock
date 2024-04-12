@@ -16,9 +16,9 @@ IP：141.11.75.124
 
 目前该服务已经提供的加速服务有
 
-1. Netflix 网飞 美国
+1. Netflix 网飞 美区
 
-2. Disney 迪士尼 美国
+2. Disney 迪士尼 美区
 
 3. 谷歌翻译
 
@@ -28,7 +28,7 @@ IP：141.11.75.124
 
 6. DIscord
 
-7. Spotify 声田 香港
+7. Spotify 声田 港区
 
 8. bilibili海外 
 
