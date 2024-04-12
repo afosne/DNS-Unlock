@@ -39,6 +39,6 @@ IP：141.11.75.124
 
 公益不宜，请大家多多支持,如有疑问请联系[7920a9c2@gmail.com](mailto:7920a9c2@gmail.com) 
 
-![wechat](/img/wx.jpg)![alipay](/img/zfb.jpg)
+![爱发电](/img/afd.jpg)
 
 
