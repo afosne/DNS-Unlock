@@ -38,7 +38,7 @@ IP：141.11.75.124
 
 
 
-目前计划加速的网站，具体情况后续分析
+计划加速的网站
 
 - [ ] tidal
 - [ ] R星类
@@ -47,17 +47,9 @@ IP：141.11.75.124
 - [ ] EA类
 - [ ] TMDB
 - [ ] 微软全家桶
-- [ ] ......
+- [ ] 
 
 
-
-### 由于本人时间有限，后续解锁服务有需求请提交Issues
-
-## 如何赞助[#](https://vuemini.org/guide/sponsor.html#如何赞助)
-
-你可以通过微信、支付宝赞助我。当然我更加欢迎周期性赞助，你可以通过支付宝搜索「预约转账」，设置每月向我划转一定数额的资金，支付宝账号可以发邮件至 [y.mingshan3@gmail.com](mailto:y.mingshan3@gmail.com) 获取。
-
-![wechat](https://vuemini.org/wechat.jpg)![alipay](https://vuemini.org/alipay.jpg)
 
 ### 由于本人时间有限，后续解锁服务有需求请提交Issues
 
@@ -67,4 +59,3 @@ IP：141.11.75.124
 公益不宜，请大家多多支持,如有疑问请联系[7920a9c2@gmail.com](mailto:7920a9c2@gmail.com) 
 
 ![爱发电](/img/afd.jpg)
-
