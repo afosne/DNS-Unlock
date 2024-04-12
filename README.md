@@ -1,4 +1,4 @@
-# DNS--Unlock
+# DNS-Unlock
 
 本DNS服务部署于中国大陆以外地区，且本DNS服务不提供任何翻越GFW的功能。
 
