@@ -33,3 +33,13 @@ IP：141.11.75.124
    
 
 ### 由于本人时间有限，后续解锁服务有需求请提交Issues
+
+### 由于本人时间有限，后续解锁服务有需求请提交Issues
+
+## 如何赞助[#](https://vuemini.org/guide/sponsor.html#如何赞助)
+
+你可以通过微信、支付宝赞助我。当然我更加欢迎周期性赞助，你可以通过支付宝搜索「预约转账」，设置每月向我划转一定数额的资金，支付宝账号可以发邮件至 [y.mingshan3@gmail.com](mailto:y.mingshan3@gmail.com) 获取。
+
+![wechat](/img/wx.jpg)![alipay](/img/zfb.jpg)
+
+
