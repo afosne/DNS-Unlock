@@ -1,6 +1,6 @@
 # DNS-Unlock
 
-本DNS服务部署于香港地区，且本DNS服务不提供任何翻越GFW的功能。
+本DNS服务部署于香港地区，且本DNS服务不提供任何翻越GFW的功能。连接DNS后打开https://m.ip138.com/检查IP是否为原ip若为原ip则dns未能成功连接，若为其他ip则成功连接。
 
 
 
