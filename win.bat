@@ -26,7 +26,7 @@ echo .
 if %ethn%==0 
 netsh interface ipv4 set dns name=以太网 source=static addr=%DNS1% register=PRIMARY
 echo DNS  = %DNS1%   
-if %ethn%>=0
+if %ethn%＞=0
 netsh interface ipv4 set dns name=以太网%ethn% source=static addr=%DNS1% register=PRIMARY   
 echo 本地代理已设置！  
 pause  
@@ -52,7 +52,7 @@ echo   2 VLANDNS
 set /p oper=  
 if %oper%==1 
 set /p ethn=若不止一个以太网请输入以太网后面的数字，若没有则输入0
-if p>=0
+if p＞=0
 set NAME=以太网%ethn%
 if %ethn%==0
 set NAME=以太网
