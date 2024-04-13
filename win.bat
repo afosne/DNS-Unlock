@@ -24,10 +24,10 @@ echo 网络 = 以太网
 set /p ethn=若不止一个以太网请输入以太网后面的数字，若没有则输入0
 echo .
 if %ethn%==0 
-netsh interface ipv4 set dns name=以太网 source=static addr=%DNS1% register=PRIMARY
+netsh interface ip add dnsserver name=以太网 source=static addr=%DNS1% register=PRIMARY
 echo DNS  = %DNS1%   
 if %ethn%＞=0
-netsh interface ipv4 set dns name=以太网%ethn% source=static addr=%DNS1% register=PRIMARY   
+netsh interface ip add dnsserver name=以太网%ethn% source=static addr=%DNS1% register=PRIMARY   
 echo 本地代理已设置！  
 pause  
 goto 4 
@@ -38,7 +38,7 @@ echo 正在设置本地DNS代理，请稍等...
 echo 网络 = VLAN   
 echo DNS  = %DNS1%   
 echo .
-netsh interface ipv4 set dns name=VLAN source=static addr=%DNS1% register=PRIMARY   
+netsh interface ip add dnsserver name=VLAN source=static addr=%DNS1% register=PRIMARY   
 echo 本地代理已设置！  
 pause  
 goto 4 
