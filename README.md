@@ -19,32 +19,18 @@ IP：141.11.75.124
 # 目前该服务已经提供的加速服务有
 
 1. Netflix 网飞 港区
-
 2. Disney 迪士尼 美区
-
 3. 谷歌翻译
-
 4. Github {github raw gist}
-
 5. Steam {商城，好友列表，创意工坊} 
-
 6. Discord
-
 7. Spotify 声田 港区 仅加速播放，无法加速登录页面
-
 8. bilibili海外 
-
 9. notion 笔记
-
 10. 育碧 {登录、云同步、相关的服务}
-
 11. 幻兽帕鲁
-
 12. Epic {登录、商城、云同步}
-
 13. hcaptcha 验证码
-
-14. nodeseek 论坛加速
 
 
 
@@ -58,7 +44,6 @@ IP：141.11.75.124
 - [ ] TMDB
 - [ ] 微软全家桶
 - [ ] hulu
-- [x] Nodeseek论坛
 - [ ] .........
 
 
