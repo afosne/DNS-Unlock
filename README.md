@@ -30,7 +30,7 @@ IP：141.11.75.124
 
 6. DIscord
 
-7. Spotify 声田 港区
+7. Spotify 声田 港区 仅加速播放，不知道为啥原因无法加速登录页面
 
 8. bilibili海外 
 
