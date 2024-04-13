@@ -3,7 +3,6 @@
 rem //设置变量   
 set DNS1=141.11.75.124
 
-
 echo 当前可用操作有：  
 echo   1 设置以太网DNS代理
 echo   2 设置以太网DNS代理
@@ -22,9 +21,10 @@ if %operate%==4 goto 4
 echo . 
 echo 正在设置本地DNS代理，请稍等...  
 echo 网络 = 以太网   
+set /p ethn=若不止一个以太网请输入以太网后面的数字
 echo DNS  = %DNS1%   
 echo .
-netsh interface ipv4 set dns name=以太网 source=static addr=%DNS1% register=PRIMARY   
+netsh interface ipv4 set dns name=以太网%ethn% source=static addr=%DNS1% register=PRIMARY   
 echo 本地代理已设置！  
 pause  
 goto 4 
