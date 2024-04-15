@@ -15,6 +15,7 @@
 4. 在 DNS 字段中输入您的  141.11.75.124 。
 5. 打开网页 https://m.ip138.com/ 查看IP是否变化，若变化则DNS生效。
 
+# 苹果使用mobileconfig文件使用DNS
 
 
 # Windows使用教程
