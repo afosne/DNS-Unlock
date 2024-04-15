@@ -4,7 +4,7 @@
 
 [不会使用，点击这里](/tutorial.md)
 
-# DNS服务地址
+# DNS服务地址 （服务被打崩了，正在修复中😓）
 
 DNS-over-HTTP：https://dns.afosne.icu/dns-query 
 
