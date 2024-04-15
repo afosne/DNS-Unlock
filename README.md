@@ -1,10 +1,12 @@
 # DNS-Unlock
 
-#使用教程
+本DNS服务部署于香港地区，且本DNS服务不提供任何翻越GFW的功能。
+
+## 使用教程
 
 [不会使用，点击这里](/tutorial.md)
 
-# DNS服务地址 （服务已恢复，大哥别打了😂）
+## DNS服务地址
 
 DNS-over-HTTP：https://dns.afosne.icu/dns-query 
 
@@ -14,25 +16,39 @@ IP：141.11.75.124
 
 
 
-# 目前该服务已经提供的加速服务有
+## 目前该服务已经提供的加速服务有
 
 1. Netflix 网飞 港区
+
 2. Disney 迪士尼 美区
+
 3. 谷歌翻译
+
 4. Github {github raw gist}
+
 5. Steam {商城，好友列表，创意工坊} 
+
 6. Discord
+
 7. Spotify 声田 港区 仅加速播放，无法加速登录页面
+
 8. bilibili海外 
+
 9. notion 笔记
+
 10. 育碧 {登录、云同步、相关的服务}
+
 11. 幻兽帕鲁
+
 12. Epic {登录、商城、云同步}
+
 13. hcaptcha 验证码
 
+14. nodeseek 论坛加速
 
 
-# 还在计划加速的网站
+
+## 还在计划加速的网站
 
 - [ ] tidal
 - [ ] R星类
@@ -41,12 +57,22 @@ IP：141.11.75.124
 - [ ] EA类
 - [ ] TMDB
 - [ ] 微软全家桶
-- [ ] hulu
+- [x] hulu
+- [ ] HBO
+- [ ] TVB
+- [ ] AbemaTV
+- [ ] Happyon
+- [ ] Pandora
 - [ ] .........
 
 
 
-# 由于本人时间有限，后续解锁服务有需求请提交Issues
+## Other
+
+由于本人时间有限，后续解锁服务有需求请提交Issues
+
+由于本项目部署于香港地区，Dns查询延迟稍微有点高，且有部分地址只能通过ip访问该DNS，目前准备通过隧道中转以降低延迟。
+
 
 
 ## 如何赞助
