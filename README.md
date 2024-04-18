@@ -7,6 +7,7 @@
 [不会使用，点击这里](/tutorial.md)
 
 ## DNS服务地址
+域名已经被污染，将更改域名地址
 
 DNS-over-HTTP：https://dns.afosne.icu/dns-query 
 
@@ -28,7 +29,7 @@ IP：141.11.75.124
 
 5. Steam {商城，好友列表，创意工坊} 
 
-6. Discord
+6. Discord （失效）
 
 7. Spotify 声田 港区 仅加速播放，无法加速登录页面
 
@@ -43,6 +44,11 @@ IP：141.11.75.124
 12. Epic {登录、商城、云同步}
 
 13. hcaptcha 验证码
+
+14.YouTube 直连
+
+15.telegram 直连
+
 
     
 
