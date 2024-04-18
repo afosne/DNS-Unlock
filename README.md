@@ -9,9 +9,9 @@
 ## DNS服务地址
 域名已经被污染，将更改域名地址
 
-DNS-over-HTTP：https://dns.afosne.icu/dns-query 
+DNS-over-HTTP：（失效） 
 
-DNS-over-TLS ：dns.afosne.icu
+DNS-over-TLS ：（失效）
 
 IP：141.11.75.124
 
