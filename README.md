@@ -45,10 +45,6 @@ IP：141.11.75.124
 
 13. hcaptcha 验证码
 
-14.YouTube 直连
-
-15.telegram 直连
-
 
     
 
