@@ -45,9 +45,9 @@ IP：141.11.75.124
 
 13. hcaptcha 验证码
 
-14. YouTube 直连 有几率
+14. YouTube 直连 有几率失效 
 
-15. telegram 直连 有几率
+15. telegram 直连 有几率失效
 
 
     
