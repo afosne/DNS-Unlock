@@ -27,7 +27,7 @@ IP：141.11.75.124
 
 3. 谷歌翻译
 
-4. Github {github raw gist}
+4. Github {github raw gist}（手机客户端可能会报错，但是浏览器加速没问题，具体问题在研究中）
 
 5. Steam {商城，好友列表，创意工坊} 
 
