@@ -56,15 +56,15 @@ IP：141.11.75.124
 
 ## 还在计划加速的网站
 
-- [ ] tidal
+- [x] tidal
 - [ ] R星类
 - [x] 育碧类
 - [ ] 烂橘子类
 - [ ] EA类
-- [ ] TMDB
+- [x] TMDB
 - [ ] 微软全家桶
 - [x] hulu
-- [ ] HBO
+- [x] HBO
 - [ ] TVB
 - [ ] AbemaTV
 - [ ] Happyon
