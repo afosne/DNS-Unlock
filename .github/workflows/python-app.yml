@@ -11,9 +11,7 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python 3.10
@@ -30,7 +28,7 @@ jobs:
       id: commit
       continue-on-error: true
       run: |
-          git config user.email "actions@github.com"
+          git config user.email "afosne@github.com"
           git config user.name "GitHub Actions"
           git add .
            git commit -m "Updated at $(date '+%Y-%m-%d %H:%M:%S')"
