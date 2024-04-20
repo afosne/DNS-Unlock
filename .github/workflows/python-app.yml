@@ -24,14 +24,3 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         python searchproxyip.py
         
-    - name: Commit
-      id: commit
-      continue-on-error: true
-      run: |
-          git config user.email "afosne@github.com"
-          git config user.name "GitHub Actions"
-          git add .
-           git commit -m "Updated at $(date '+%Y-%m-%d %H:%M:%S')"
-          git pull --rebase
-    - uses: ad-m/github-push-action@master
-      if: ${{ steps.commit.outcome == 'success' }}
