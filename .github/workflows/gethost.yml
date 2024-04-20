@@ -1,0 +1,22 @@
+name: gethost
+on:
+  # push:
+  #   branches:
+  #     - main  # 替换为你的默认分支
+  schedule:
+    - cron: 30 1/1 * * *
+  workflow_dispatch:  # 触发手动事件
+jobs:
+   main:
+    runs-on: ubuntu-latest
+    env:
+     BASE: ${{ secrets.BASE }}
+     KEYWORD: ${{ secrets.KEYWORD }}
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          ref: ${{ github.ref }}
+      - name: Run searchhost
+        run: |
+          chmod +x searchhost
+           bash searchhost -b ${{ secrets.BASE }} 
