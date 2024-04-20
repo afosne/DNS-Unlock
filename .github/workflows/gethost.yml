@@ -1,8 +1,7 @@
 name: RUN Searchhost
-on:
-  # push:
-  #   branches:
-  #     - main  # 替换为你的默认分支
+
+on: 
+  repository_dispatch:
   workflow_dispatch:  # 触发手动事件
 jobs:
    main:
@@ -13,5 +12,15 @@ jobs:
     steps:
       - name: Run searchhost
         run: |
-          chmod +x searchhost
-          bash ./searchhost -b ${{ secrets.BASE }} 
+          sudo chmod +x searchhost
+          bash ./searchhost -b ${{ secrets.BASE }}
+          
+      - name: Commit
+        id: commit
+        continue-on-error: true
+        run: |
+          git config user.email "actions@github.com"
+          git config user.name "GitHub Actions"
+          git add .
+           git commit -m "Updated at $(date '+%Y-%m-%d %H:%M:%S')"
+          git pull --rebase
