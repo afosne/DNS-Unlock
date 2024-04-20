@@ -57,16 +57,16 @@ def save_data(en_json,s):
             pass
         r = r + 1
     book.save('%s.xls'%s)
-    cwd = os.getcwd()
-    dir = cwd + '\\' + 'targets.txt'
-    k = len(en_json['results'])
-    try:
-        with io.open(dir, 'w', encoding='utf-8') as f:
-            for i in range(0, k):
-                s = en_json['results'][i]
-                f.write(s+'\n')
-    except Exception as e:
-        print e
+    # cwd = os.getcwd()
+    # dir = cwd + '\\' + 'targets.txt'
+    # k = len(en_json['results'])
+    # try:
+    #     with io.open(dir, 'w', encoding='utf-8') as f:
+    #         for i in range(0, k):
+    #             s = en_json['results'][i]
+    #             f.write(s+'\n')
+    # except Exception as e:
+    #     print e
 
 
 if __name__ == '__main__':
