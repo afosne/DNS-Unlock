@@ -1,10 +1,6 @@
 #!/usr/bin/env python
 # -*- coding:utf-8 -*-
 
-"""
-@Author: DC3x6
-@Created: 2020-4-10 
-"""
 
 import json,base64,xlwt
 import requests as req
