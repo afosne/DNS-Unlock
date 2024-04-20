@@ -50,4 +50,4 @@ hostLines.forEach(function (hostname) {
 });
 // 将结果输出为文本
 var formattedText = formattedHosts.join('\n');
-console.log(formattedText) > test.txt ;
+console.log(formattedText) > dns.txt ;
