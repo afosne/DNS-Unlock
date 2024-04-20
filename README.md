@@ -5,7 +5,7 @@
 
 ## 转移服务前期准备
 API接口（许多功能是一点都没实现，目前还处于测试环境，正在努力开发中（一晚没睡,明天继续））
-https://dnsip.afosne.workers.dev/?hostname=disneyplus.com&country=us
+https://dnsip.afosne.workers.dev/?hostname=netflix.com&country=us
 hostname输入域名查询 支持所有格式 country 目前出于测试阶段 国家不全
 
 ## 使用教程
