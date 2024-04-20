@@ -1,0 +1,41 @@
+name: gethost
+
+on: 
+  push: 
+    branches: [ master ]  
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.5
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.5
+    - name: setup env & install host
+      run: |
+        git config --global user.name "fate0"
+        git config --global user.email "git@fatezero.org"
+        pip install git+https://github.com/Cl0udG0d/Fofa-hack.git@master
+
+    - name: run getproxy
+      run: |
+        getproxy --in-proxy=proxy.list --out-proxy=proxy.list.out
+        mv proxy.list.out proxy.list
+
+    - name: commit
+      run: |
+        rm -rf .git
+        git init
+        git add .
+        git commit -m "`env TZ=Asia/Shanghai date`"
+        git remote add origin git@github.com:Cl0udG0d/Fofa-hack.git
+        
+    - name: push
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: master
+        force: true
