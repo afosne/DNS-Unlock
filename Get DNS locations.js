@@ -1,7 +1,6 @@
 var myHeaders = new Headers();
-myHeaders.append("X-Auth-Email", "7920a9c2@gmail.com");
-myHeaders.append("X-Auth-Key", "d79573993130b741718d68b72eda4af6736a7");
-myHeaders.append("User-Agent", "Apifox/1.0.0 (https://apifox.com)");
+myHeaders.append("X-Auth-Key", "${cf-api}"); //你的cloudflare api密钥
+myHeaders.append("X-Auth-Email", "${cf-mail}"); //你的cloudflare 邮箱
 myHeaders.append("Content-Type", "application/json");
 
 var raw = JSON.stringify({
@@ -18,7 +17,7 @@ var requestOptions = {
    redirect: 'follow'
 };
 
-fetch("https://api.cloudflare.com/client/v4/accounts/b9026a15a586c9fbdd6d8ee2947a8cdb/gateway/locations", requestOptions)
+fetch("https://api.cloudflare.com/client/v4/accounts/${account_id}/gateway/rules", requestOptions)
    .then(response => response.text())
    .then(result => console.log(result))
    .catch(error => console.log('error', error));
