@@ -27,7 +27,7 @@ var requestOptions = {
    redirect: 'follow'
 };
 
-fetch("https://api.cloudflare.com/client/v4/accounts/${account_id}/gateway/rules", requestOptions)
+fetch("https://api.cloudflare.com/client/v4/accounts/${account_id}/gateway/rules", requestOptions) //account_id = 你的账户id
    .then(response => response.text())
    .then(result => console.log(result))
    .catch(error => console.log('error', error));
