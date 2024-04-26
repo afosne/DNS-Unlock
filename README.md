@@ -10,7 +10,7 @@
 #### 方案二
 还要一些问题正在解决，只允许使用5个设备进行使用。
 ### 查询接口：
-https://dnsip.afosne.workers.dev/?hostname=netflix.com（未完善）代码出现逻辑问题
+https://dnsip.afosne.workers.dev/?hostname=netflix.com （未完善）代码出现逻辑问题
 ### 部署接口：
 详情见js目录（目前只写了JavaScript方案,后续有更多方案)
 
