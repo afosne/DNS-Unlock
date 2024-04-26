@@ -4,11 +4,14 @@
 {发现新大陆，某场提供个人免费私有dns服务，等功能完善我会教程，无需服务器（优点，轻松简单，可以直连，且可以直接设置为私人dns使用，缺点是无法解析YouTube（解决了，但是要等轮询结束），telegram（目前没啥想法，搞不好）等服务，这些服务设置比较复杂，而且不太稳定），该服务将在教程推送后停止提供}
 
 ## 转移服务前期准备
-API接口（许多功能是一点都没实现，目前还处于测试环境，正在努力开发中（一晚没睡,明天继续））
+方案一：
 目前基于Cloudflare Zero Trust gateway 的 DNS Locations 的 DNS policies 以及成熟，正在完善api 和部署代码
-https://dnsip.afosne.workers.dev/?hostname=netflix.com
-代码出现逻辑问题真正解决
-hostname输入域名查询
+方案二
+还要一些问题正在解决，只允许使用5个设备进行使用。
+查询接口：
+https://dnsip.afosne.workers.dev/?hostname=netflix.com（未完善）代码出现逻辑问题
+部署接口：
+详情见js目录（目前只写了JavaScript方案,后续有更多方案)
 
 ## 使用教程
 
