@@ -5,8 +5,10 @@
 
 ## 转移服务前期准备
 API接口（许多功能是一点都没实现，目前还处于测试环境，正在努力开发中（一晚没睡,明天继续））
-https://dnsip.afosne.workers.dev/?hostname=netflix.com&country=us
-hostname输入域名查询 支持所有格式 country 目前出于测试阶段 国家不全
+目前基于Cloudflare Zero Trust gateway 的 DNS Locations 的 DNS policies 以及成熟，正在完善整个代码
+https://dnsip.afosne.workers.dev/?hostname=netflix.com
+代码出现逻辑问题真正解决
+hostname输入域名查询
 
 ## 使用教程
 
