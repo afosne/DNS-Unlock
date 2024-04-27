@@ -7,7 +7,7 @@ var raw = JSON.stringify({
    "ips": [
       "192.0.2.1/32"
    ],
-   "name": "${DnsName}"
+   "name": "${Dns_Name}"
 });
 
 var requestOptions = {
