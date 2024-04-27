@@ -1,13 +1,13 @@
 var myHeaders = new Headers();
-myHeaders.append("X-Auth-Key", "${cf-api}"); //你的cloudflare api密钥
-myHeaders.append("X-Auth-Email", "${cf-mail}"); //你的cloudflare 邮箱
+myHeaders.append("X-Auth-Key", "${cf_api}"); //你的cloudflare api密钥
+myHeaders.append("X-Auth-Email", "${cf_mail}"); //你的cloudflare 邮箱
 myHeaders.append("Content-Type", "application/json");
 
 var raw = JSON.stringify({
    "ips": [
       "192.0.2.1/32"
    ],
-   "name": "${YouDnsName}"
+   "name": "${DnsName}"
 });
 
 var requestOptions = {
