@@ -13,8 +13,7 @@ var raw = JSON.stringify({
    "name": "TW", //cf DNS 策略名称
    "rule_settings": {
       "override_ips": [
-         "${proxy-ip1}", //需要解析的ip地址 可以通过 https://dnsip.afosne.workers.dev/?hostname=netflix.com口获得
-         "${proxy-ip2}"
+         "${proxy-ip}", //需要解析的ip地址 可以通过 https://dnsip.afosne.workers.dev/?hostname=netflix.com口获得
       ]
    },
    "traffic": "any(app.type.ids[*] in {14}) and any(app.type.ids[*] in {11}) and any(app.ids[*] in {534 626 548 549 554 550 585})"
