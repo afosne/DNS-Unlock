@@ -9,6 +9,8 @@
 目前基于Cloudflare Zero Trust gateway 的 DNS Locations 的 DNS policies 以及成熟，正在完善api 和部署代码
 #### 方案二
 还要一些问题正在解决，只允许使用5个设备进行使用。
+#### 方案三
+国内优化不是很好。
 ### 查询接口：
 https://dnsip.afosne.workers.dev/?domain=netflix.com （未完善）代码出现逻辑问题
 ### 部署接口：
