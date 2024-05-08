@@ -23,8 +23,6 @@ https://dnsip.afosne.workers.dev/?domain=netflix.com （未完善）代码出现
 
 DNS-over-HTTP：（失效） 
 
-DNS-over-TLS ：（失效）
-
 IP：141.11.75.124
 
 
