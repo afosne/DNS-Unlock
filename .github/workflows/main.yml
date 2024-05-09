@@ -15,10 +15,11 @@ jobs:
     - name: dependencies
       run: chmod +x ./q
 
+    - name: dependencies
+      run: rm dns.txt -y
+
     - name: RUN project
-      run: |
-        rm dnstest.txt
-        ./q --dnssec A netflix.com @https://dns.afosne.icu/dns-query > dnstest.txt
+      run: ./q --dnssec A netflix.com @https://dns.afosne.icu/dns-query > dnstest.txt
         
       
     - name: Commit Changes
