@@ -5,9 +5,10 @@
 
 ## 转移服务前期准备
 ### 解决方案
-[dns.afosne.icu](https://dns.afosne.icu/dns-query)
-[cdns.afosne.icu](https://cdns.afosne.icu/dns-query)
-[adns.afosne.icu](https://adns.afosne.icu/dns-query)
+方案一 ： 利用Zero Trust 对域名进行
+[dns.afosne.icu](https://dns.afosne.icu/dns-query)<br/>
+[cdns.afosne.icu](https://cdns.afosne.icu/dns-query)<br/>
+[adns.afosne.icu](https://adns.afosne.icu/dns-query)<br/>
 ### 查询接口：
 https://dnsip.afosne.workers.dev/?domain=netflix.com （未完善）代码出现逻辑问题
 ### 部署接口：
