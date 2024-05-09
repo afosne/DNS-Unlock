@@ -15,7 +15,7 @@ jobs:
     - name: dependencies
       run: chmod +x ./q
 
-    - name: dependencies
+    - name: delet dns
       run: rm dns.txt -y
 
     - name: RUN project
