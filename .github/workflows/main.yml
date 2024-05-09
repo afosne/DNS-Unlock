@@ -16,7 +16,10 @@ jobs:
       run: chmod +x ./q
 
     - name: RUN project
-      run: ./q --dnssec A netflix.com @https://dns.afosne.icu/dns-query > dnstest.txt
+      run: |
+        rm dnstest.txt
+        ./q --dnssec A netflix.com @https://dns.afosne.icu/dns-query > dnstest.txt
+        
       
     - name: Commit Changes
       run: |
