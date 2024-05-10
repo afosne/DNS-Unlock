@@ -1,18 +1,15 @@
 # DNS-Unlock
 
-本DNS服务部署于香港地区，且本DNS服务不提供任何翻越GFW的功能。
 
 
-## 转移服务前期准备
+
+
 ### 解决方案
 方案一 ： 利用Zero Trust 对域名进行覆盖操作<br/>
 [https://dns.afosne.icu/dns-query](https://dns.afosne.icu/dns-query)正常<br/>
 [https://cdns.afosne.icu/dns-query](https://cdns.afosne.icu/dns-query)正常<br/>
 [https://adns.afosne.icu/dns-query](https://adns.afosne.icu/dns-query)正常<br/>
-### 查询接口：
-https://dnsip.afosne.workers.dev/?domain=netflix.com （未完善）代码出现逻辑问题
-### 部署接口：
-详情见js目录（完善中)
+
 
 ## 使用教程
 
@@ -21,45 +18,11 @@ https://dnsip.afosne.workers.dev/?domain=netflix.com （未完善）代码出现
 
 ## 目前该服务已经提供的加速服务有
 
-1. Netflix 网飞 港区 （服务器提供商：绿云 绕美了，在优化路线）
-2. Disney 迪士尼 美区 （服务器提供商：绿云 绕美了，在优化路线）
-3. 谷歌翻译 
-4. Github {github raw gist}（手机客户端可能会报错，但是浏览器加速没问题，具体问题在研究中）
-5. Steam {商城，好友列表，创意工坊} 
-6. Discord （目前测试失效）
-7. Spotify 声田 港区 仅加速播放，无法加速登录页面
-8. bilibili海外 
-9. notion 笔记（更新中）
-10. 育碧 {登录、云同步、相关的服务}
-11. 幻兽帕鲁（已取消）
-12. Epic {登录、商城、云同步}
-13. hcaptcha 验证码
-14. YouTube 直连 {移动、联通可能失效，且需要设备支持ipv6，解决办法:重进YouTube客户端???，反正我有效，若不行开启飞行模式后关闭} （解锁方法，轮询所有谷歌ip，找到未被gfw封禁的ip并自动切换解析地址，大概需要等待30秒后才能使用，速度极快）
-15. telegram 直连 {可能失效，随缘解锁解决办法同YouTube} 
-16. Tidal
-17. TMDB
-18. HBO
-19. Hulu 葫芦 香港（服务器提供商：绿云 绕美了，在优化路线）
+
 
 
 ## 还在计划加速的网站
 
-- [x] tidal
-- [ ] R星类
-- [x] 育碧类
-- [ ] 烂橘子类
-- [ ] EA类
-- [x] TMDB
-- [ ] 微软全家桶
-- [x] hulu
-- [x] HBO
-- [ ] TVB
-- [ ] AbemaTV
-- [ ] Happyon
-- [ ] Pandora
-- [x] YouTube
-- [x] telegram
-- [ ] .........
 
 
 
