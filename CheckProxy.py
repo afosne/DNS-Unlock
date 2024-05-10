@@ -4,9 +4,9 @@ def check_backend_availability(url):
     try:
         response = requests.get(url)
         if "Backend not available" in response.text:
-            print("Backend not available")
+            print("Proxy is ture")
         else:
-            print("Backend is available")
+            print("Proxy is false")
     except requests.exceptions.RequestException as e:
         print("Error occurred:", str(e))
 
