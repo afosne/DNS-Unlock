@@ -21,12 +21,16 @@ DNS
 - [x] disneyplus.com 新加坡
 - [x] 谷歌翻译
 - [x] OP.GG
+
 ADNS
+      
 - [x] Netflix 日本
 - [x] disneyplus.com 日本
 - [x] Facebook
 - [x] Instagram
+
 CDNS
+
 - [x] Netflix 日本
 - [x] disneyplus.com 日本
 - [x] Facebook
