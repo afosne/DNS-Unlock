@@ -6,7 +6,7 @@
 ## 转移服务前期准备
 ### 解决方案
 方案一 ： 利用Zero Trust 对域名进行覆盖操作<br/>
-[https://dns.afosne.icu/dns-query](https://dns.afosne.icu/dns-query)异常<br/>
+[https://dns.afosne.icu/dns-query](https://dns.afosne.icu/dns-query)正常<br/>
 [https://cdns.afosne.icu/dns-query](https://cdns.afosne.icu/dns-query)正常<br/>
 [https://adns.afosne.icu/dns-query](https://adns.afosne.icu/dns-query)正常<br/>
 ### 查询接口：
