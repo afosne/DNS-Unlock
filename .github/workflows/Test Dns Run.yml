@@ -1,4 +1,4 @@
-name: RUN and Package
+name: Test Dns Run
 
 on:
   workflow_dispatch:
