@@ -21,9 +21,9 @@ jobs:
     - name: RUN cfproject
       run: ./q --dnssec A afosne.afosne @https://dns.afosne.icu/dns-query > dnstest.txt
     - name: RUN adproject
-      run: ./q --dnssec A afosne.afosne @https://adns.afosne.icu/dns-query > dnstest.txt
+      run: ./q --dnssec A afosne.afosne @https://adns.afosne.icu/dns-query >> dnstest.txt
     - name: RUN coproject
-      run: ./q --dnssec A afosne.afosne @https://cdns.afosne.icu/dns-query > dnstest.txt
+      run: ./q --dnssec A afosne.afosne @https://cdns.afosne.icu/dns-query >> dnstest.txt
       
     - name: Commit Changes
       run: |
