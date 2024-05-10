@@ -1,1 +1,1 @@
-afosne.afosne. 1m A 1.1.1.1
+afosne.afosne. 1m A 1.1.1.1 (https://dns.afosne.icu:443/dns-query)
