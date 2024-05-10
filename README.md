@@ -16,17 +16,10 @@
 
 
 ## 目前该服务已经提供的加速服务有
-  正在运行中的[DNS](https://dns.afosne.icu/dns-query)
-- [ ] Netflix 新加坡
-- [ ] 谷歌翻译
-- [ ] OP.GG
-
-
-## 还在计划加速的网站
-
-
-
-
+- [x] Netflix 新加坡
+- [x] disneyplus.com 新加坡
+- [x] 谷歌翻译
+- [x] OP.GG
 ## Other
 
 由于本人时间有限，后续解锁服务有需求请提交Issues
