@@ -6,9 +6,9 @@
 ## 转移服务前期准备
 ### 解决方案
 方案一 ： 利用Zero Trust 对域名进行覆盖操作<br/>
-[dns.afosne.icu](https://dns.afosne.icu/dns-query)异常<br/>
-[cdns.afosne.icu](https://cdns.afosne.icu/dns-query)正常<br/>
-[adns.afosne.icu](https://adns.afosne.icu/dns-query)正常<br/>
+[https://dns.afosne.icu/dns-query](https://dns.afosne.icu/dns-query)异常<br/>
+[https://cdns.afosne.icu/dns-query](https://cdns.afosne.icu/dns-query)正常<br/>
+[https://adns.afosne.icu/dns-query](https://adns.afosne.icu/dns-query)正常<br/>
 ### 查询接口：
 https://dnsip.afosne.workers.dev/?domain=netflix.com （未完善）代码出现逻辑问题
 ### 部署接口：
@@ -17,15 +17,6 @@ https://dnsip.afosne.workers.dev/?domain=netflix.com （未完善）代码出现
 ## 使用教程
 
 [不会使用，点击这里](/tutorial.md)
-
-## DNS服务地址
-
-域名已经被污染，将更改域名地址
-
-DNS-over-HTTP：（失效） 
-
-IP：141.11.75.124
-
 
 
 ## 目前该服务已经提供的加速服务有
