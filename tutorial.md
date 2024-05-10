@@ -38,7 +38,7 @@
 
 # 苹果使用mobileconfig文件使用DNS
 
-安装描述文件：[dns_unlock.mobileconfig](https://github.com/afosne/DNS-Unlock/blob/main/dns_unlock.mobileconfig)文件发送到 iOS 设备上，并在设备上打开它，iOS 系统将提示您是否安装此描述文件。安装后，DNS 服务器地址将会生效
+安装描述文件：[dns_unlock.mobileconfig](https://github.com/afosne/DNS-Unlock/blob/main/dns_unlock.mobileconfig)（已删除）文件发送到 iOS 设备上，并在设备上打开它，iOS 系统将提示您是否安装此描述文件。安装后，DNS 服务器地址将会生效
 
 
 
