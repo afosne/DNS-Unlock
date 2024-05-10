@@ -1,11 +1,8 @@
 # DNS-Unlock
+  DNS服务器方案即将取消，请大家更换DNS地址。
+  目前所有dns解析通过 adguard DNS 和 CLoudflare Zero Trust 提供，但是依旧需要代理服务器提供解锁服务。（解决了一部分部署DNS服务器的费用）
 
 
-
-
-
-### 解决方案
-方案一 ： 利用Zero Trust 对域名进行覆盖操作<br/>
 [https://dns.afosne.icu/dns-query](https://dns.afosne.icu/dns-query)正常<br/>
 [https://cdns.afosne.icu/dns-query](https://cdns.afosne.icu/dns-query)正常<br/>
 [https://adns.afosne.icu/dns-query](https://adns.afosne.icu/dns-query)正常<br/>
