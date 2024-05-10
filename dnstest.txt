@@ -1,3 +1,1 @@
-netflix.com. 37s A 44.234.232.238
-netflix.com. 37s A 44.237.234.25
-netflix.com. 37s A 44.242.60.85
+afosne.afosne. 1m A 1.1.1.1
