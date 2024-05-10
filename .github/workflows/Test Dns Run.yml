@@ -18,12 +18,13 @@ jobs:
     - name: delet dns
       run: rm ./dnstest.txt 
 
-    - name: RUN project
-      run: |
-       ./q --dnssec A afosne.afosne @https://dns.afosne.icu/dns-query > dnstest.txt \
-       ./q --dnssec A afosne.afosne @https://adns.afosne.icu/dns-query > dnstest.txt \
-       ./q --dnssec A afosne.afosne @https://cdns.afosne.icu/dns-query > dnstest.txt
-       
+    - name: RUN cfproject
+      run: ./q --dnssec A afosne.afosne @https://dns.afosne.icu/dns-query > dnstest.txt
+    - name: RUN adproject
+      run: ./q --dnssec A afosne.afosne @https://adns.afosne.icu/dns-query > dnstest.txt
+    - name: RUN coproject
+      run: ./q --dnssec A afosne.afosne @https://cdns.afosne.icu/dns-query > dnstest.txt
+      
     - name: Commit Changes
       run: |
           if [[ -n "$(git status --porcelain)" ]]; then
