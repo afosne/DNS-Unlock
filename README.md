@@ -4,8 +4,8 @@
 
 
 [https://dns.afosne.icu/dns-query](https://dns.afosne.icu/dns-query)正常<br/>
-[https://cdns.afosne.icu/dns-query](https://cdns.afosne.icu/dns-query)部署中<br/>
-[https://adns.afosne.icu/dns-query](https://adns.afosne.icu/dns-query)部署中<br/>
+[https://cdns.afosne.icu/dns-query](https://cdns.afosne.icu/dns-query)正常<br/>
+[https://adns.afosne.icu/dns-query](https://adns.afosne.icu/dns-query)正常<br/>
 
 ## 测试是否正确连接
   连接后访问网址[afosne.afosne](https://afosne.afosne/)若出现“此站点的连接不安全afosne.afosne 使用不受支持的协议。ERR_SSL_VERSION_OR_CIPHER_MISMATCH”则成功连接。若出现"无法访问此网站afosne.afosne 意外终止了连接。"则请尝试访问[browserleaks](https://browserleaks.com/dns)来测试你的dnsisp。{[dns](https://dns.afosne.icu/dns-query)的isp为Cloudlfare，[cdns](https://cdns.afosne.icu/dns-query)的isp为NetActuate，[adns](https://adns.afosne.icu/dns-query)的isp为Datacamp Limited和Cdn77 LAX。}，若不是则与dns服务器的连接出现故障。
@@ -16,10 +16,21 @@
 
 
 ## 目前该服务已经提供的加速服务有
+DNS
 - [x] Netflix 新加坡
 - [x] disneyplus.com 新加坡
 - [x] 谷歌翻译
 - [x] OP.GG
+ADNS
+- [x] Netflix 新加坡
+- [x] disneyplus.com 新加坡
+- [x] Facebook
+- [x] Instagram
+CDNS
+- [x] Netflix 日本
+- [x] disneyplus.com 日本
+- [x] Facebook
+- [x] Instagram（发神经，网页段图片有时候加载不出来，但是app端不咋发神经）
 ## Other
 
 由于本人时间有限，后续解锁服务有需求请提交Issues
