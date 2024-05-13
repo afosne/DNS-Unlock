@@ -8,7 +8,7 @@
 [https://adns.afosne.icu/dns-query](https://adns.afosne.icu/dns-query)正常<br/>
 
 ## 测试是否正确连接
-  连接后访问网址[afosne.afosne](https://afosne.afosne/)若弹出nginx页面则DNS服务器连接正常，若不正常请尝试访问[browserleaks](https://browserleaks.com/dns)来测试你的dnsisp。{[dns](https://dns.afosne.icu/dns-query)的isp为Cloudlfare，[cdns](https://cdns.afosne.icu/dns-query)的isp为NetActuate，[adns](https://adns.afosne.icu/dns-query)的isp为Datacamp Limited和Cdn77 LAX。}，若不是则您与dns服务器的连接出现故障。
+  连接后访问网址[afosne.afosne](http://afosne.afosne/)若弹出nginx页面则DNS服务器连接正常，若不正常请尝试访问[browserleaks](https://browserleaks.com/dns)来测试你的dnsisp。{[dns](https://dns.afosne.icu/dns-query)的isp为Cloudlfare，[cdns](https://cdns.afosne.icu/dns-query)的isp为NetActuate，[adns](https://adns.afosne.icu/dns-query)的isp为Datacamp Limited和Cdn77 LAX。}，若不是则您与dns服务器的连接出现故障。
 
 ## 使用教程
 
