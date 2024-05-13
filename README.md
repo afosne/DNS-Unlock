@@ -1,6 +1,6 @@
 # DNS-Unlock
   DNS服务器方案即将取消，请大家更换DNS地址。
-  目前dns解析通过 adguard DNS 和 CLoudflare Zero Trust 提供，但是依旧需要代理服务器提供解锁服务。（解决了一部分部署DNS服务器的费用）缺点是DNS延迟相较于服务器延迟较高。
+  目前dns解析通过 adguard DNS 和 CLoudflare Zero Trust 提供，但是依旧需要代理服务器提供解锁服务。（解决了一部分部署DNS服务器的费用）缺点是DNS延迟相较于服务器DNS解析延迟较高。
 
 ## 已经正常使用的DNS服务
 [https://dns.afosne.icu/afosne](https://dns.afosne.icu/afosne)<br/>
