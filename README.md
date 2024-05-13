@@ -3,11 +3,11 @@
   目前所有dns解析通过 adguard DNS 和 CLoudflare Zero Trust 提供，但是依旧需要代理服务器提供解锁服务。（解决了一部分部署DNS服务器的费用）缺点是DNS延迟相较于服务器延迟较高。
 
 ## 已经正常使用的DNS服务
-[https://dns.afosne.icu/afosne](https://dns.afosne.icu/afosne)正常<br/>
+[https://dns.afosne.icu/afosne](https://dns.afosne.icu/afosne)<br/>
 ## 测试中的DNS服务
-[https://dns.afosne.icu/afosnec](https://dns.afosne.icu/afosnec)正常<br/>
+[https://dns.afosne.icu/afosnec](https://dns.afosne.icu/afosnec)<br/>
 ## 可以去广告的DNS服务
-[https://dns.afosne.icu/afosnea](https://dns.afosne.icu/dafosnea)正常<br/>
+[https://dns.afosne.icu/afosnea](https://dns.afosne.icu/dafosnea)<br/>
 
 ## 测试是否正确连接
   连接后访问网址[afosne.afosne](http://afosne.afosne/)若弹出nginx页面则DNS服务器连接正常，若不正常请尝试访问[browserleaks](https://browserleaks.com/dns)来测试你的dnsisp。{[afosne](https://dns.afosne.icu/dns-query)的isp为Cloudlfare，[afosnec](https://dns.afosne.icu/afosnec)的isp为NetActuate，[afosnea](https://dns.afosne.icu/afosnea)的isp为Datacamp Limited和Cdn77 LAX。}，若不是则您与dns服务器的连接出现故障。
