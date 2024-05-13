@@ -2,11 +2,11 @@
   DNS服务器方案即将取消，请大家更换DNS地址。
   目前所有dns解析通过 adguard DNS 和 CLoudflare Zero Trust 提供，但是依旧需要代理服务器提供解锁服务。（解决了一部分部署DNS服务器的费用）缺点是DNS延迟相较于服务器延迟较高。
 
-#已经正常使用的DNS服务
+## 已经正常使用的DNS服务
 [https://dns.afosne.icu/dns-query](https://dns.afosne.icu/dns-query)正常<br/>
-#测试中的DNS服务
+## 测试中的DNS服务
 [https://cdns.afosne.icu/dns-query](https://cdns.afosne.icu/dns-query)正常<br/>
-#可以去广告的DNS服务
+## 可以去广告的DNS服务
 [https://adns.afosne.icu/dns-query](https://adns.afosne.icu/dns-query)正常<br/>
 
 ## 测试是否正确连接
