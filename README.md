@@ -18,25 +18,25 @@
 
 
 ## 目前该服务已经提供的加速服务有
-DNS
+AFOSNE
 - [x] Netflix 新加坡
 - [x] disneyplus.com 新加坡
 - [x] 谷歌翻译
 - [x] OP.GG
 
-ADNS
+AFOSNEC
       
 - [x] Netflix 日本
 - [x] disneyplus.com 日本
 - [x] Facebook
-- [x] Instagram
+- [x] Instagram（发神经，网页段图片有时候加载不出来，但是app端不咋发神经）
 
-CDNS
+AFOSNEA
 
 - [x] Netflix 日本
 - [x] disneyplus.com 日本
 - [x] Facebook
-- [x] Instagram（发神经，网页段图片有时候加载不出来，但是app端不咋发神经）
+- [x] Instagram
 ## Other
 
 由于本人时间有限，后续解锁服务有需求请提交Issues
