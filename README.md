@@ -28,15 +28,13 @@ AFOSNEC
       
 - [x] Netflix 日本
 - [x] disneyplus.com 日本
-- [x] Facebook
-- [x] Instagram（发神经，网页段图片有时候加载不出来，但是app端不咋发神经）
+
 
 AFOSNEA
 
 - [x] Netflix 日本
 - [x] disneyplus.com 日本
-- [x] Facebook
-- [x] Instagram
+
 ## Other
 
 由于本人时间有限，后续解锁服务有需求请提交Issues
