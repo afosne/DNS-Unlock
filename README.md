@@ -24,6 +24,9 @@ AFOSNE
 - [x] hulu 新加坡
 - [x] 谷歌翻译
 - [x] OP.GG
+- [x] spotify 播放列表加载和音频流
+- [x] notion 笔记加搜
+- [x] cloudflare worker 和 pages   
 
 AFOSNEC
       
