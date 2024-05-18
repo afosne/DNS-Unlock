@@ -21,6 +21,7 @@
 AFOSNE
 - [x] Netflix 新加坡
 - [x] disneyplus.com 新加坡
+- [x] hulu 新加坡
 - [x] 谷歌翻译
 - [x] OP.GG
 
