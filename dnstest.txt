@@ -1,1 +1,3 @@
-afosne.afosne. 1m A 1.1.1.1
+afosne.afosne. 1m A 118.171.113.190
+afosne.afosne. 1m A 118.171.122.63
+afosne.afosne. 1m A 123.249.86.77
