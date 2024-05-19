@@ -4,7 +4,7 @@ import json
 # API URLs
 api_urls = [
     'https://dnstest.afosnesub.workers.dev/afosne',
-    'https://dnstest.afosnesub.workers.dev/afosnec,
+    'https://dnstest.afosnesub.workers.dev/afosnec',
     'https://dnstest.afosnesub.workers.dev/afosna'
 ]
 
