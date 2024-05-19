@@ -4,8 +4,8 @@ import json
 # API URLs
 api_urls = [
     'https://dnstest.afosnesub.workers.dev/afosne',
-    'https://dnstest.afosnesub.workers.dev/afosnec',
-    'https://dnstest.afosnesub.workers.dev/afosna'
+    # 'https://dnstest.afosnesub.workers.dev/afosnec', #  非标准化Doh报错了 
+    # 'https://dnstest.afosnesub.workers.dev/afosna'
 ]
 
 def save_to_separate_files(ips_dict, api_name):
