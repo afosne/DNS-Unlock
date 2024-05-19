@@ -20,13 +20,13 @@
 ## 目前该服务已经提供的加速服务有
 AFOSNE
 - [x] Netflix 新加坡
-- [x] disneyplus.com 新加坡
+- [x] Disneyplus.com 新加坡
 - [x] hulu 新加坡
 - [x] 谷歌翻译
 - [x] OP.GG
-- [x] spotify 播放列表加载和音频流
-- [x] notion 笔记
-- [x] cloudflare worker 和 pages   
+- [x] Spotify 播放列表加载和音频流
+- [x] Notion 笔记
+- [x] Cloudflare worker 和 pages   
 
 AFOSNEC
       
