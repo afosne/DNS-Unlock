@@ -34,19 +34,23 @@ for api_url in api_urls:
 
         # 检查状态码
         for ip in ips:
-            response = requests.get(f'http://{ip}')
-            if response.status_code == 503:
-                if hostname not in ips_dict:
-                    ips_dict[hostname] = []
-                ips_dict[hostname].append(ip)
+            try:
+                response = requests.get(f'http://{ip}')
+                if response.status_code == 503:
+                    if hostname not in ips_dict:
+                        ips_dict[hostname] = []
+                    ips_dict[hostname].append(response)
+            except requests.exceptions.RequestException:
+                # 如果请求失败,跳过该IP
+                continue
 
     # 删除非503状态的IP
-    ips_to_remove = {ip: hostname for hostname, ip_list in ips_dict.items() if not any(response.status_code == 503 for response in ip_list)}
+    ips_to_remove = {ip: hostname for hostname, ip_list in ips_dict.items() if not any(response.status_code == 503 for response in ip_list if isinstance(response, requests.Response))}
     for ip, hostname in ips_to_remove.items():
         del ips_dict[hostname]
 
     # 以域名-IP格式重新构建数据
-    filtered_ips = {hostname: [ip] for hostname, ip_list in ips_dict.items() if ip_list}
+    filtered_ips = {hostname: [response.url.split('//')[-1] for response in ip_list] for hostname, ip_list in ips_dict.items() if ip_list}
 
     # 保存到新的JSON文件
     file_name = f'{api_url.split("/")[-1]}_503_filtered_ips.json'
