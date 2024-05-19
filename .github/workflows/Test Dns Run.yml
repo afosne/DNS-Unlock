@@ -19,7 +19,7 @@ jobs:
       run: rm ./dnstest.txt
 
     - name: RUN project
-      run: ./q --dnssec A afosne.afosne @https://dns.afosne.icu/dns-query > dnstest.txt
+      run: ./q --dnssec A afosne.afosne @https://dns.afosne.icu/afosne > dnstest.txt
       
     - name: Commit Changes
       run: |
