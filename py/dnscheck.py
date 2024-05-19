@@ -8,6 +8,13 @@ api_urls = [
     'https://dnstest.afosnesub.workers.dev/afosna'
 ]
 
+def save_to_separate_files(ips_dict, api_name):
+    file_name = f"{api_name}.json"
+    with open(file_name, 'w') as f:
+        json.dump(ips_dict, f, indent=2)
+
+    print(f"JSON data for {api_name} saved to {file_name}")
+
 for api_url in api_urls:
     try:
         # 获取JSON数据
@@ -54,9 +61,5 @@ for api_url in api_urls:
     # 以域名-IP格式重新构建数据
     filtered_ips = {hostname: [response.url.split('//')[-1] for response in ip_list] for hostname, ip_list in ips_dict.items() if ip_list}
 
-    # 保存到新的JSON文件
-    file_name = f'{api_url.split("/")[-1]}_503_filtered_ips.json'
-    with open(file_name, 'w') as f:
-        json.dump(filtered_ips, f, indent=2)
-
-    print(f'JSON数据已保存到 "{file_name}" 文件中')
+    # 保存到单独的文件
+    save_to_separate_files(filtered_ips, api_url.split("/")[-1])
