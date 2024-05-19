@@ -25,23 +25,21 @@ for api_url in api_urls:
         else:
             continue
 
-        if 'ips' in item:
-            ips = item['ips']
-        elif 'ip_addresses' in item:
-            ips = item['ip_addresses']
-        else:
-            continue
-
-        # 检查状态码
-        for ip in ips:
-            try:
-                response = requests.get(f'http://{ip}')
-                if response.status_code == 503:
-                    if hostname not in ips_dict:
-                        ips_dict[hostname] = []
-                    ips_dict[hostname].append(response)
-            except requests.exceptions.RequestException:
-                # 如果请求失败,跳过该IP
+        if 'ips' in item or 'ip_addresses' in item:
+            # 检查IP列表是否为requests对象
+            if isinstance(item['ips'], list) or isinstance(item['ip_addresses'], list):
+                for ip in item['ips']:
+                    try:
+                        # 检查IP是否为requests对象
+                        ip_response = requests.get(f'http://{ip}')
+                        if ip_response.status_code == 503:
+                            if hostname not in ips_dict:
+                                ips_dict[hostname] = []
+                            ips_dict[hostname].append(ip_response)
+                    except requests.exceptions.RequestException:
+                        # 如果请求失败,跳过该IP
+                        continue
+            else:
                 continue
 
     # 删除非503状态的IP
