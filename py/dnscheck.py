@@ -9,9 +9,13 @@ api_urls = [
 ]
 
 for api_url in api_urls:
-    # 获取JSON数据
-    response = requests.get(api_url)
-    data = response.json()
+    try:
+        # 获取JSON数据
+        response = requests.get(api_url)
+        data = response.json()
+    except requests.exceptions.JSONDecodeError:
+        print(f"Error decoding JSON data from {api_url}")
+        continue
 
     # 初始化存储字典
     ips_dict = {}
