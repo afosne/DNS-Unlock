@@ -25,7 +25,7 @@ for item in data:
         payload = json.dumps({
             "action": "override",
             "filters": ["dns"],
-            "description": f"Unblock {hostname}",
+            "description": f"{hostname}",
             "enabled": True,
             "name": hostname,
             "rule_settings": {
