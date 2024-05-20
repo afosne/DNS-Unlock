@@ -8,6 +8,7 @@
 [https://dns.afosne.icu/afosnec](https://dns.afosne.icu/afosnec)<br/>
 ## 可以去广告的DNS服务
 [https://dns.afosne.icu/afosnea](https://dns.afosne.icu/dafosnea)<br/>
+
 ## 解锁用服务器探针
 [https://status.afosne.icu/](https://status.afosne.icu/)
 
@@ -36,10 +37,10 @@ AFOSNEC
 - [x] disneyplus.com 日本
 
 
-AFOSNEA
+AFOSNEA（暂时停止提供解锁服务）
 
-- [x] Netflix 日本
-- [x] disneyplus.com 日本
+- [ ] Netflix 日本
+- [ ] disneyplus.com 日本
 
 ## Other
 
