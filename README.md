@@ -24,12 +24,13 @@
 AFOSNE
 - [x] Netflix 
 - [x] Disneyplus.com 
-- [x] hulu 
+- [x] Hulu 
 - [x] 谷歌翻译
 - [x] OP.GG
 - [x] Spotify 播放列表加载和音频流
 - [x] Notion 笔记
-- [x] Cloudflare worker 和 pages   
+- [x] Cloudflare worker 和 pages
+- [x] Github Github raw
 
 AFOSNEC
       
