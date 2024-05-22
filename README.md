@@ -22,9 +22,9 @@
 
 ## 目前该服务已经提供的加速服务有
 AFOSNE
-- [x] Netflix 新加坡
-- [x] Disneyplus.com 新加坡
-- [x] hulu 新加坡
+- [x] Netflix 
+- [x] Disneyplus.com 
+- [x] hulu 
 - [x] 谷歌翻译
 - [x] OP.GG
 - [x] Spotify 播放列表加载和音频流
@@ -33,14 +33,14 @@ AFOSNE
 
 AFOSNEC
       
-- [x] Netflix 日本
-- [x] disneyplus.com 日本
+- [x] Netflix 
+- [x] disneyplus.com 
 
 
 AFOSNEA（暂时停止提供解锁服务）
 
-- [ ] Netflix 日本
-- [ ] disneyplus.com 日本
+- [ ] Netflix 
+- [ ] disneyplus.com 
 
 
 ## 如何赞助
