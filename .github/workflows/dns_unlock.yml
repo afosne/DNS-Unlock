@@ -1,0 +1,43 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
+
+name: Dns_unlock
+
+on:
+  workflow_dispatch:
+
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.10"
+
+
+    - name: Set DNS
+      run: |
+        echo -e "nameserver 127.0.0.1" > /etc/resolv.conf
+        ./dnsproxy -l 127.0.0.1 -p 53 -u https://dns.afosne.icu/afosne -b 1.1.1.1:53
+        bash <(curl -L -s media.ispvps.com) >> dns_unlock.txt
+
+    - name: Commit Changes
+      run: |
+          if [[ -n "$(git status --porcelain)" ]]; then
+            echo "Changes detected in the repository."
+            git config core.ignorecase false
+            git config --local user.email "actions@github.com"
+            git config --local user.name "GitHub Action"
+            git add .
+            git commit -m "Updated at $(date '+%Y-%m-%d %H:%M:%S')"
+            git push
+          else
+            echo "No changes detected in the repository."
+          fi
+
+    
