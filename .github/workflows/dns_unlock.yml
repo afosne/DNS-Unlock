@@ -25,7 +25,7 @@ jobs:
         echo -e "nameserver 127.0.0.1" | sudo tee /etc/resolv.conf
         chmod +x ./dnsproxy
         # sudo ./dnsproxy -l 127.0.0.1 -p 53 -u https://dns.afosne.icu/afosne -b 1.1.1.1:53 &
-        bash <(curl -L -s media.ispvps.com) >> dns_unlock.txt
+        bash <(curl -L -s https://raw.githubusercontent.com/lmc999/RegionRestrictionCheck/main/check.sh) >> dns_unlock.txt
 
     - name: Commit Changes
       run: |
