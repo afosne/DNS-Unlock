@@ -22,7 +22,7 @@ jobs:
 
     - name: Set DNS
       run: |
-        echo -e "nameserver 127.0.0.1" > /etc/resolv.conf
+        sudo echo -e "nameserver 127.0.0.1" > /etc/resolv.conf
         ./dnsproxy -l 127.0.0.1 -p 53 -u https://dns.afosne.icu/afosne -b 1.1.1.1:53
         bash <(curl -L -s media.ispvps.com) >> dns_unlock.txt
 
