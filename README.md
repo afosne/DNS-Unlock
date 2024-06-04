@@ -3,8 +3,9 @@
   目前dns解析通过 Adguard DNS 和 Cloudflare Zero Trust 提供，但是依旧需要代理服务器提供解锁服务。（解决了一部分部署DNS服务器的费用）缺点是DNS延迟相较于服务器DNS解析延迟较高。
 
 ## 已经正常使用的DNS服务
+IPV6模式[2a06:98c1:54::15:446a](2a06:98c1:54::15:446a)
 DOH模式[https://dns.afosne.icu/afosne](https://dns.afosne.icu/afosne)<br/>
-DOT模式[r15u87xxyy.cloudflare-gateway.com]()
+
 ## 测试中的DNS服务
 [https://dns.afosne.icu/afosnec](https://dns.afosne.icu/afosnec)<br/>
 ## 可以去广告的DNS服务
