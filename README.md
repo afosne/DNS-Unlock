@@ -4,7 +4,7 @@
 
 ## 已经正常使用的DNS服务
 DOH模式[https://dns.afosne.icu/afosne](https://dns.afosne.icu/afosne)<br/>
-DOT模式[r15u87xxyy.cloudflare-gateway.com](r15u87xxyy.cloudflare-gateway.com)
+DOT模式[r15u87xxyy.cloudflare-gateway.com]()
 ## 测试中的DNS服务
 [https://dns.afosne.icu/afosnec](https://dns.afosne.icu/afosnec)<br/>
 ## 可以去广告的DNS服务
