@@ -5,7 +5,7 @@
 ## 已经正常使用的DNS服务
 IPV6模式 "2a06:98c1:54::15:446a"<br/>
 DOH模式 [https://dns.afosne.icu/afosne](https://dns.afosne.icu/afosne)<br/>
-服务被DDoS，修复中。
+
 ## 测试中的DNS服务
 [https://dns.afosne.icu/afosnec](https://dns.afosne.icu/afosnec)<br/>
 ## 可以去广告的DNS服务
