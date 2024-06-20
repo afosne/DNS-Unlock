@@ -4,7 +4,7 @@
 
 ## 使用的DNS服务(服务器若出现故障请及时上报
 默认服务 [https://dns.afosne.icu/afosne](https://dns.afosne.icu/afosne)<br/>
-## 以下服务器目前仅支持Netflix 和 Disneyplus 等部分网站的加速.后续将持续更新服务
+#### 以下服务器目前仅支持Netflix 和 Disneyplus 等部分网站的加速.后续将持续更新服务
 ANYCAST服务器[https://dns.afosne.icu/afosneanycast](https://dns.afosne.icu/afosneanycast)<br/>
 澳大利亚服务器[https://dns.afosne.icu/afosneau](https://dns.afosne.icu/afosneau)<br/>
 欧洲服务器[https://dns.afosne.icu/afosneeu](https://dns.afosne.icu/afosneeu)<br/>
