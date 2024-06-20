@@ -58,7 +58,7 @@ AFOSNEA（暂时停止提供解锁服务）
 建立负载均衡以满足大量用户的需求。
 
 # 后期维护和优化
-有问题可以进入群组讨论默认服务 [Dns_Unlock](https://t.me/Dns_Unlock)
+有问题可以进入群组讨论 [Dns_Unlock](https://t.me/Dns_Unlock)
 ## 如何赞助
 
 公益不宜，请大家多多支持,如有疑问请联系[7920a9c2@gmail.com](mailto:7920a9c2@gmail.com) 
