@@ -1,7 +1,4 @@
 # DNS-Unlock
-  DNS服务器方案即将取消，请大家更换DNS地址。
-  目前dns解析通过 Adguard DNS 和 Cloudflare Zero Trust 提供，但是依旧需要代理服务器提供解锁服务。（解决了一部分部署DNS服务器的费用）缺点是DNS延迟相较于服务器DNS解析延迟较高。
-
 ## 使用的DNS服务(部分服务还在调试中,若出现问题请提交PR或者在群组中提交问题以便解决)
 默认服务 [https://dns.afosne.icu/afosne](https://dns.afosne.icu/afosne)<br/>
 #### 以下服务器目前仅支持Netflix 和 Disneyplus 等部分网站的加速.后续将持续更新服务
