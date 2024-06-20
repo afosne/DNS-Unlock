@@ -49,8 +49,5 @@ AFOSNE
 # 后期维护和优化
 有问题可以进入群组讨论 [Dns_Unlock](https://t.me/Dns_Unlock)
 ## 如何赞助
-
-公益不宜，请大家多多支持,如有疑问请联系[7920a9c2@gmail.com](mailto:7920a9c2@gmail.com) 
-
 ![爱发电](/img/afd.jpg)
 
