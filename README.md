@@ -41,16 +41,6 @@ AFOSNE
 - [x] Cloudflare worker 和 pages
 - [x] Github Github raw
 
-AFOSNEC
-      
-- [x] Netflix 
-- [x] disneyplus.com 
-
-
-AFOSNEA（暂时停止提供解锁服务）
-
-- [ ] Netflix 
-- [ ] disneyplus.com 
 
 # 后期维护和优化
 目前开发客户端中，满足各个区服之间的解锁和使用。
