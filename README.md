@@ -26,7 +26,7 @@ ANYCAST服务器[https://dns.afosne.icu/afosneanycast](https://dns.afosne.icu/af
 
 
 ## 目前该服务已经提供的加速服务有
-AFOSNE
+服务加速
 - [x] Netflix 
 - [x] Disneyplus.com 
 - [x] Hulu 
@@ -36,7 +36,8 @@ AFOSNE
 - [x] Notion 笔记
 - [x] Cloudflare worker 和 pages
 - [x] Github Github raw
-
+游戏加速
+- [ ] 测试中
 
 # 后期维护和优化
 目前开发客户端中，满足各个区服之间的解锁和使用。
