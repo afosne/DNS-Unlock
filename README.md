@@ -36,6 +36,7 @@ ANYCAST服务器[https://dns.afosne.icu/afosneanycast](https://dns.afosne.icu/af
 - [x] Notion 笔记
 - [x] Cloudflare worker 和 pages
 - [x] Github Github raw
+
 游戏加速
 - [ ] 测试中
 
