@@ -389,6 +389,4 @@ function main(content) {
 
 有问题可以进入群组讨论 [Dns_Unlock](https://t.me/Dns_Unlock)
 
-## 如何赞助
 
-![爱发电](/img/afd.jpg)
