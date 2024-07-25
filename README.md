@@ -25,7 +25,7 @@ ANYCAST服务器[https://dns.afosne.icu/afosneanycast](https://dns.afosne.icu/af
 
 ## 优化使用方式
 
-### CLASH可以加入js代码来提供解锁服务
+### CLASH Verge可以加入js代码来提供解锁服务
 
 ```javascript
 function main(content) {
@@ -124,8 +124,241 @@ function main(content) {
 }
 ```
 
+### singbox可以修改配置文件来解锁服务
 
-
+```javascript
+{
+  "log": {
+    "disabled": false,
+    "level": "warn",
+    "output": "/var/run/homeproxy/sing-box-c.log",
+    "timestamp": true
+  },
+  "dns": {
+    "servers": [
+      {
+        "tag": "default-dns",
+        "address": "223.5.5.5",
+        "detour": "direct-out"
+      },
+      {
+        "tag": "system-dns",
+        "address": "local",
+        "detour": "direct-out"
+      },
+      {
+        "tag": "block-dns",
+        "address": "rcode://name_error"
+      },
+      {
+        "tag": "afosne",
+        "address": "https://dns.afosne.icu/afosne",
+        "address_resolver": "default-dns",
+        "address_strategy": "ipv4_only",
+        "strategy": "ipv4_only",
+        "client_subnet": "1.0.1.0"
+      }
+    ],
+    "rules": [
+      {
+        "outbound": "any",
+        "server": "default-dns"
+      },
+      {
+        "query_type": "HTTPS",
+        "server": "block-dns"
+      },
+      {
+        "clash_mode": "direct",
+        "server": "default-dns"
+      },
+      {
+        "clash_mode": "global",
+        "server": "afosne"
+      },
+      {
+        "rule_set": "cnsite",
+        "server": "default-dns"
+      }
+    ],
+    "strategy": "ipv4_only",
+    "disable_cache": false,
+    "disable_expire": false,
+    "independent_cache": false,
+    "final": "afosne"
+  },
+  "inbounds": [
+    {
+      "type": "direct",
+      "tag": "dns-in",
+      "listen": "::",
+      "listen_port": 5333
+    },
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "::",
+      "listen_port": 5330,
+      "sniff": true,
+      "sniff_override_destination": false,
+      "set_system_proxy": false
+    },
+    {
+      "type": "redirect",
+      "tag": "redirect-in",
+      "listen": "::",
+      "listen_port": 5331,
+      "sniff": true,
+      "sniff_override_destination": false
+    },
+    {
+      "type": "tproxy",
+      "tag": "tproxy-in",
+      "listen": "::",
+      "listen_port": 5332,
+      "network": "udp",
+      "sniff": true,
+      "sniff_override_destination": false
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "direct",
+      "tag": "direct-out",
+      "routing_mark": 100
+    },
+    {
+      "type": "block",
+      "tag": "block-out"
+    },
+    {
+      "type": "dns",
+      "tag": "dns-out"
+    },
+    {
+      "type": "urltest",
+      "tag": "自动选择",
+      "outbounds": [
+        "香港",
+        "日本",
+        "美国"
+      ]
+    },
+    {
+      "type": "selector",
+      "tag": "手动选择",
+      "outbounds": [
+        "direct-out",
+        "block-out",
+        "自动选择",
+        "香港",
+        "日本",
+        "美国"
+      ],
+      "default": "自动选择"
+    },
+    {
+      "type": "selector",
+      "tag": "GLOBAL",
+      "outbounds": [
+        "direct-out",
+        "香港",
+        "日本",
+        "美国"
+      ],
+      "default": "手动选择"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "香港",
+      "routing_mark": 100,
+      "server": "abc.com",
+      "server_port": 10001,
+      "password": "fdc43e321a",
+      "method": "aes-128-gcm"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "日本",
+      "routing_mark": 100,
+      "server": "abc.com",
+      "server_port": 10002,
+      "password": "fdc43e321a",
+      "method": "aes-128-gcm"
+    },
+    {
+      "type": "shadowsocks",
+      "tag": "美国",
+      "routing_mark": 100,
+      "server": "abc.com",
+      "server_port": 10003,
+      "password": "fdc43e321a",
+      "method": "aes-128-gcm"
+    }
+  ],
+  "route": {
+    "rules": [
+      {
+        "inbound": "dns-in",
+        "outbound": "dns-out"
+      },
+      {
+        "protocol": "dns",
+        "outbound": "dns-out"
+      },
+      {
+        "protocol": "quic",
+        "outbound": "block-out"
+      },
+      {
+        "clash_mode": "direct",
+        "outbound": "direct-out"
+      },
+      {
+        "clash_mode": "global",
+        "outbound": "GLOBAL"
+      },
+      {
+        "rule_set": [
+          "cnip",
+          "cnsite"
+        ],
+        "outbound": "direct-out"
+      }
+    ],
+    "rule_set": [
+      {
+        "type": "remote",
+        "tag": "cnip",
+        "format": "binary",
+        "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geoip/cn.srs",
+        "download_detour": "自动选择"
+      },
+      {
+        "type": "remote",
+        "tag": "cnsite",
+        "format": "binary",
+        "url": "https://github.com/MetaCubeX/meta-rules-dat/raw/sing/geo-lite/geosite/cn.srs",
+        "download_detour": "自动选择"
+      }
+    ],
+    "auto_detect_interface": true,
+    "final": "手动选择"
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "path": "/etc/homeproxy/cache.db"
+    },
+    "clash_api": {
+      "external_controller": "192.168.2.1:9090",
+      "external_ui": "/etc/homeproxy/ui/",
+      "external_ui_download_detour": "自动选择",
+      "default_mode": "rule"
+    }
+  }
+}
+```
 
 ## 目前该服务已经提供的加速服务有
 
