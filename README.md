@@ -382,12 +382,10 @@ function main(content) {
 # 后期维护和优化
 
 面板开发和用户自定义配置模板
-目前开发客户端中，满足各个区服之间的解锁和使用。
-后期尝试使用dns直接解锁登录Netflix，Disney，等网站会员共享等功能。
+满足各个区服之间的解锁和使用。
+使用dns直接解锁登录Netflix，Disney，等网站会员。
 建立负载均衡以满足大量用户的需求。
 
-# 后期维护和优化
-
-有问题可以进入群组讨论 [Dns_Unlock](https://t.me/Dns_Unlock)
+# 有问题可以进入群组讨论 [Dns_Unlock](https://t.me/Dns_Unlock)
 
 
