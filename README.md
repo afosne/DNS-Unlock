@@ -9,13 +9,13 @@
 ANYCAST服务器[https://dns.afosne.icu/afosneanycast](https://dns.afosne.icu/afosneanycast)<br/>
 澳大利亚服务器[https://dns.afosne.icu/afosneau](https://dns.afosne.icu/afosneau)<br/>
 欧洲服务器[https://dns.afosne.icu/afosneeu](https://dns.afosne.icu/afosneeu)<br/>
-香港服务器[https://dns.afosne.icu/afosnehk](https://dns.afosne.icu/afosnehk)<br/>
+中国香港服务器[https://dns.afosne.icu/afosnehk](https://dns.afosne.icu/afosnehk)<br/>
 日本服务器[https://dns.afosne.icu/afosnejp](https://dns.afosne.icu/afosnejp)<br/>
 韩国服务器[https://dns.afosne.icu/afosnekr](https://dns.afosne.icu/afosnekr)<br/>
 新加坡服务器[https://dns.afosne.icu/afosnesg](https://dns.afosne.icu/afosnesg)<br/>
 泰国服务器[https://dns.afosne.icu/afosneth](https://dns.afosne.icu/afosneth)<br/>
 土耳其服务器[https://dns.afosne.icu/afosnetr](https://dns.afosne.icu/afosnetr)<br/>
-台湾地区服务器[https://dns.afosne.icu/afosnetw](https://dns.afosne.icu/afosnetw)<br/>
+中国台湾服务器[https://dns.afosne.icu/afosnetw](https://dns.afosne.icu/afosnetw)<br/>
 美国服务器[https://dns.afosne.icu/afosneus](https://dns.afosne.icu/afosneus)<br/>
 赞助服务器[https://dns.afosne.icu/afosnefreeany](https://dns.afosne.icu/afosnefreeany)<br/>
 
