@@ -29,7 +29,7 @@ ANYCAST服务器[https://dns.afosne.icu/afosneanycast](https://dns.afosne.icu/af
 ### DNS解锁配置重写生成器
 
 [获取DNS解锁配置](https://snirewrite.afosneuy7a7cqaz1.workers.dev/random-config)
-填入AdGuard Home 自定义过滤规则 则可以解锁流媒体，简单高效。同理任何具有重写功能的DNS服务都可使用类似的配置来实现解锁。
+填入[AdGuard DNS]（https://adguard-dns.io/zh_cn/welcome.html）服务器-创建服务器-用户规则，则可以解锁流媒体，简单高效。同理任何具有重写功能的DNS服务都可使用类似的配置来实现解锁。
 ### CLASH Verge可以加入js代码来提供解锁服务
 
 ```javascript
