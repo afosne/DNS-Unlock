@@ -28,8 +28,8 @@ ANYCAST服务器[https://dns.afosne.icu/afosneanycast](https://dns.afosne.icu/af
 
 ### DNS解锁配置重写生成器
 
-[获取DNS解锁配置](https://snirewrite.afosneuy7a7cqaz1.workers.dev/random-config)
-填入[AdGuard DNS](https://adguard-dns.io/zh_cn/welcome.html)服务器-创建服务器-用户规则，则可以解锁流媒体，简单高效。同理任何具有重写功能的DNS服务都可使用类似的配置来实现解锁。当然服务器可能会出现一段时间的解锁失败，请再次[获取DNS解锁配置](https://snirewrite.afosneuy7a7cqaz1.workers.dev/random-config)，更新配置，保持你的持续解锁。
+[获取DNS解锁配置](https://snirewrite.sniunlock.workers.dev/random-config)
+填入[AdGuard DNS](https://adguard-dns.io/zh_cn/welcome.html)服务器-创建服务器-用户规则，即可以解锁流媒体，简单高效，同时也可以自定义配置对，游戏加速，bilibil加速等功能（现只能自定义配置[获取DNS解锁](https://snirewrite.sniunlock.workers.dev/)，随机密码输入即可，手动填写域名，和自动选择国家对应的ip，没有提供操作界面）。同理任何具有重写功能的DNS服务都可使用类似的配置来实现解锁。当然服务器可能会出现一段时间的解锁失败，请再次[获取DNS解锁配置](https://snirewrite.sniunlock.workers.dev/random-config)，更新配置，保持你的持续解锁。
 ### CLASH Verge可以加入js代码来提供解锁服务
 
 ```javascript
