@@ -3,34 +3,9 @@
 ## 使用的DNS服务(部分服务还在调试中,若出现问题请提交Is或者在群组中提交问题以便解决)
 
 默认服务 [https://dns.afosne.icu/afosne](https://dns.afosne.icu/afosne)<br/>
+服务状态监测[https://status.afosne.icu/](https://status.afosne.icu/)
 
-#### 以下服务器目前仅支持Netflix 和 Disneyplus 等部分网站的加速.后续将持续更新服务
-
-ANYCAST服务器[https://dns.afosne.icu/afosneanycast](https://dns.afosne.icu/afosneanycast)<br/>
-澳大利亚服务器[https://dns.afosne.icu/afosneau](https://dns.afosne.icu/afosneau)<br/>
-欧洲服务器[https://dns.afosne.icu/afosneeu](https://dns.afosne.icu/afosneeu)<br/>
-中国香港服务器[https://dns.afosne.icu/afosnehk](https://dns.afosne.icu/afosnehk)<br/>
-日本服务器[https://dns.afosne.icu/afosnejp](https://dns.afosne.icu/afosnejp)<br/>
-韩国服务器[https://dns.afosne.icu/afosnekr](https://dns.afosne.icu/afosnekr)<br/>
-新加坡服务器[https://dns.afosne.icu/afosnesg](https://dns.afosne.icu/afosnesg)<br/>
-泰国服务器[https://dns.afosne.icu/afosneth](https://dns.afosne.icu/afosneth)<br/>
-土耳其服务器[https://dns.afosne.icu/afosnetr](https://dns.afosne.icu/afosnetr)<br/>
-中国台湾服务器[https://dns.afosne.icu/afosnetw](https://dns.afosne.icu/afosnetw)<br/>
-美国服务器[https://dns.afosne.icu/afosneus](https://dns.afosne.icu/afosneus)<br/>
-赞助服务器[https://dns.afosne.icu/afosnefreeany](https://dns.afosne.icu/afosnefreeany)<br/>
-
-## 解锁用服务器探针
-
-[https://status.afosne.icu/](https://status.afosne.icu/)
-
-## 优化使用方式
-
-
-### DNS解锁配置重写生成器
-
-[获取DNS解锁配置](https://snirewrite.sniunlock.workers.dev/random-config)
-填入[AdGuard DNS](https://adguard-dns.io/zh_cn/welcome.html)服务器-创建服务器-用户规则，即可以解锁流媒体，简单高效，同时也可以自定义配置对，游戏加速，bilibil加速等功能（现只能自定义配置[获取DNS解锁](https://snirewrite.sniunlock.workers.dev/)，随机密码输入即可，手动填写域名，和自动选择国家对应的ip，没有提供操作界面）。同理任何具有重写功能的DNS服务都可使用类似的配置来实现解锁。当然服务器可能会出现一段时间的解锁失败，请再次[获取DNS解锁配置](https://snirewrite.sniunlock.workers.dev/random-config)，更新配置，保持你的持续解锁。
-### CLASH Verge可以加入js代码来提供解锁服务
+## 服务更新中，更新过程中仅保证默认服务的可用性
 
 ```javascript
 // 国内DNS服务器
