@@ -5,6 +5,11 @@
 默认服务 [https://dns.afosne.icu/afosne](https://dns.afosne.icu/afosne)<br/>
 服务状态监测[https://status.afosne.icu/](https://status.afosne.icu/)
 
+
+## 由于人数的增加目前默认服务数据请求次数已经用完可以使用备用服务与默认服务
+
+备用服务[https://dns2.afosne.icu/afosne](https://dns2.afosne.icu/afosne)<br/>
+
 ## 服务更新中，更新过程中仅保证默认服务的可用性
 
 ```javascript
