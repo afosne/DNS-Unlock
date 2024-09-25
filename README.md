@@ -6,7 +6,7 @@
 服务状态监测[https://status.afosne.icu/](https://status.afosne.icu/)
 
 
-## 由于人数的增加目前默认服务数据请求次数已经用完可以使用备用服务与默认服务
+## 由于人数的增加目前默认服务数据请求次数已经用完可以使用备用服务与默认服务网页结构相同
 
 备用服务[https://dns2.afosne.icu/afosne](https://dns2.afosne.icu/afosne)<br/>
 
