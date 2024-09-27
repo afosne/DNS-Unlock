@@ -1,6 +1,6 @@
 # DNS-Unlock
 
-## 使用的DNS服务(部分服务还在调试中,若出现问题请提交Is或者在群组中提交问题以便解决)默认服务以迁出cf托管，可以继续使用
+## 使用的DNS服务(部分服务还在调试中,若出现问题请提交Is或者在群组中提交问题以便解决)默认服务以迁出Cloudlfare托管，可以继续使用
 
 默认服务 [https://dns.afosne.icu/afosne](https://dns.afosne.icu/afosne)<br/>
 服务状态监测[https://status.afosne.icu/](https://status.afosne.icu/)
