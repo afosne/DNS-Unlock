@@ -1,14 +1,11 @@
 # DNS-Unlock
 
 ## 使用的DNS服务(部分服务还在调试中,若出现问题请提交Is或者在群组中提交问题以便解决)
-  ###   默认服务以迁出Cloudlfare托管，可以继续使用，为解决用户问题，正在提高线路负载、带宽，提高服务质量，下个跟新版本，将采用负载均衡技术，提高服务可用性，此期间线路会出现大幅度变动，请多关注。
+  ###   默认服务以迁出Cloudlfare托管，可以继续使用，为解决用户问题，正在提高线路负载、带宽，提高服务质量，新版本，将采用负载均衡技术，提高服务可用性，此期间线路会出现大幅度变动，请多关注。
 默认服务 [https://dns.afosne.icu/afosne](https://dns.afosne.icu/afosne)<br/>
+备用服务[https://dns2.afosne.icu/afosne](https://dns2.afosne.icu/afosne)<br/>
 服务状态监测[https://status.afosne.icu/](https://status.afosne.icu/)
 
-
-## 由于人数的暴增，目前默认服务数据请求次数已经用完，可以使用备用服务与默认服务网页结构相同(支持国家或地区简写格式）
-
-备用服务[https://dns2.afosne.icu/afosne](https://dns2.afosne.icu/afosne)<br/>
 
 ## 服务更新中，更新过程中仅保证默认服务的可用性
 
