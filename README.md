@@ -1,1 +1,7 @@
-十一月十一号后停止提供该服务.可以自行在 https://snirewrite.sniunlock.workers.dev (该服务密码仅提供管理员权限,可以随意输入)获取解锁的SNIPROXY反代地址,服务不一定可用多实验几次,需要其他服务或者问题可以加入群组 https://t.me/Dns_Unlock 
+https://sni.afosne.us.kg/get?country=新加坡/SG/Sg/sg&api=1/2 get 
+![image](https://github.com/user-attachments/assets/9c92e48d-ce1c-472d-944f-bc3a1fdcf175)
+![image](https://github.com/user-attachments/assets/f15adb8b-0053-40e7-8066-e9d7bb1e3fc4)
+![image](https://github.com/user-attachments/assets/398bb732-74b2-4d40-b9c2-836d4680a09c)
+![image](https://github.com/user-attachments/assets/88a1b7dc-3745-47bb-bb84-ab24172a8bc8)
+![image](https://github.com/user-attachments/assets/88872a6e-1ff1-43fa-a2ce-75de6e3ddda7)
+https://t.me/Dns_Unlock 
