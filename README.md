@@ -4,11 +4,11 @@
 
 #### 原理简述
 
-##### 利用DNS重写功能，对网站的来源进行重写，将特定网站的DNS解析重定向到[SNIproxy](https://github.com/dlundquist/sniproxy)反向代理来实现对网站的加速的效果。
+##### 利用DNS重写功能，对网站的来源进行重写，将特定网站的DNS解析重定向到[SNIproxy](https://github.com/dlundquist/sniproxy) 反向代理来实现对网站的加速的效果。
 
 ## 实现步骤
 
-​	首先我们需要获取SNIproxy的服务器，我们可以通过该[API](https://sni.afosne.us.kg/get)（https://sni.afosne.us.kg/get?country=新加坡&api=1）来获取其中有两个参数"country"&"api"，其中country为必填参数，api为可选参数（可不填或者添入1/2）这样可以获取到反向代理服务地址，例如我向"https://sni.afosne.us.kg/get?country=新加坡&api=1"发送get请求后返回的值为:
+​	首先我们需要获取SNIproxy的服务器，我们可以通过该[API](https://sni.afosne.us.kg/get)（https://sni.afosne.us.kg/get?country=新加坡&api=1） 来获取其中有两个参数"country"&"api"， 其中country为必填参数，api为可选参数（可不填或者添入1/2）这样可以获取到反向代理服务地址，例如我向"https://sni.afosne.us.kg/get?country=新加坡&api=1" 发送get请求后返回的值为:
 
 ```json
 [
