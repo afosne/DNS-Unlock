@@ -24,19 +24,19 @@
 
 登录到cloudflare zero Trust 后首先从Gateway找到DNS locations  并添加一个location地址 点击后可以返回 IPv4 endpoint、IPv6 endpoint、DoT endpoint、DoH endpoint 大部分情况下我们只需要使用DOT和DOH这两种就能满足所有需求：
 
-![image-20250101175509997](\image-20250101175509997.png)
+![image-20250101175509997](image-20250101175509997.png)
 
 接下来转到Firewall Policies
 
-![image-20250101185726600](\image-20250101185726600.png)
+![image-20250101185726600](image-20250101185726600.png)
 
 并像这样填入之前获取的SNIproxy服务器地址这样便实现了Netflix的解锁。
 
-![image-20250101185849520](\image-20250101185849520.png)
+![image-20250101185849520](image-20250101185849520.png)
 
 接下来拿到DNS locations 获取的DOH地址填入浏览器
 
-![image-20250101190308875](\image-20250101190308875.png)
+![image-20250101190308875](image-20250101190308875.png)
 
 ### adguard :(尽情期待)
 
