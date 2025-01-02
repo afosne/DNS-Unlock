@@ -12,11 +12,29 @@
 
 ```json
 [
-  "146.190.100.69"
+  {
+    "ip": "146.190.100.69",
+    "country": "SG",
+    "Title": "该解锁为学习目的，请勿商用！！！",
+    "city": "Singapore",
+    "region": "Singapore",
+    "org": "AS14061 DigitalOcean, LLC",
+    "Message": "解锁状态不一定准确，具体情况请自行测试",
+    "streaming": {
+      "Netflix": {
+        "success": true,
+        "message": "https://www.netflix.com 解锁成功"
+      },
+      "Disney+": {
+        "success": true,
+        "message": "https://www.disneyplus.com 解锁成功"
+      }
+    }
+  }
 ]
 ```
 
-然后我们需要怎么去实现解锁呢？ 现在不需要服务器的实现主要有两种方法利用[adguard dns](https://auth.adguard.com/login.html)或者利用[cloudlfare zero trust](https://one.dash.cloudflare.com/)来实现解锁。
+然后我们需要怎么去实现解锁呢？ 现在不需要服务器的实现主要有两种方法利用[adguard dns](https://auth.adguard.com/login.html)或者利用[cloudlfare zero trust](https://one.dash.cloudflare.com/)来实现解锁,本地实现可以通过clash 或者 v2ray 进行重写。
 
 #### Cloudflare：
 
@@ -39,6 +57,18 @@
 ![image-20250101190308875](image-20250101190308875.png)
 
 ### adguard :(尽情期待)
+
+### clash :
+
+以Clash Verge方式实现 ，同样我们首先需要获取Sniproxy服务器的配置信息。例如我需要解锁一个新加坡的Netflix服务，首先我们已经获取它的ip为'146.190.100.69',首先我们需要创建一个配置文件:
+
+![image-20250102213542706](eeimage-20250102213542706.png)
+
+并创建一个配置文件，在配置文件中填写如下的参数就可以实现对Netflix的流量转发，接下来敬请享受美好时光吧。
+
+![image-20250102213945049](image-20250102213945049.png)
+
+
 
 最后将获取到的DOH服务填入浏览器中的自定义DNS服务器地址当中就可以实现轻松观看Netflix，Disney+、hulu、或者使用chatGPT等功能，当然，每个返回的IP解锁的状态并不相同，或者被平台封禁的情况，我只能尽力保证服务的可用性。
 
