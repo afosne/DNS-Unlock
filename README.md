@@ -52,11 +52,54 @@
 
 ![image-20250101185849520](image-20250101185849520.png)
 
-接下来拿到DNS locations 获取的DOH地址填入浏览器
+接下来点击DNS locations 获取的DOH地址，你便拥有了一个可以解锁Netflix的doh服务器啦！！！该doh可以填入浏览器中来实现无需要软件，无需国外网络，观看Netflix的效果
 
 ![image-20250101190308875](image-20250101190308875.png)
 
-### adguard :(尽情期待)
+#### adguard :
+
+相较于cloudflare Zero Trust ，adguard无需验证信用卡便能使用, 更加方便快捷！！！
+
+登录adguard后,我们首先访问服务器并创建一个服务器
+
+![image-20250108164323383](image-20250108164323383.png)
+
+点击服务器名称进入服务器设置，并点击用户规则,免费用户能使用100个规则,以下是我常用的规则
+
+```host
+||netflix.com^$dnsrewrite={填入你更具api获取得到的ip地址}
+||netflix.net^$dnsrewrite={填入你更具api获取得到的ip地址}
+||nflximg.com^$dnsrewrite={填入你更具api获取得到的ip地址}
+||nflximg.net^$dnsrewrite={填入你更具api获取得到的ip地址}
+||nflxvideo.net^$dnsrewrite={填入你更具api获取得到的ip地址}
+||nflxso.net^$dnsrewrite={填入你更具api获取得到的ip地址}
+||nflxext.com^$dnsrewrite={填入你更具api获取得到的ip地址}
+||hulu.com^$dnsrewrite={填入你更具api获取得到的ip地址}
+||huluim.com^$dnsrewrite={填入你更具api获取得到的ip地址}
+||hbonow.com^$dnsrewrite={填入你更具api获取得到的ip地址}
+||hbogo.com^$dnsrewrite={填入你更具api获取得到的ip地址}
+||hbo.com^$dnsrewrite={填入你更具api获取得到的ip地址}
+||amazon.com^$dnsrewrite={填入你更具api获取得到的ip地址}
+||amazon.co.uk^$dnsrewrite={填入你更具api获取得到的ip地址}
+||amazonvideo.com^$dnsrewrite={填入你更具api获取得到的ip地址}
+||disney.com^$dnsrewrite={填入你更具api获取得到的ip地址}
+||disneyjunior.com^$dnsrewrite={填入你更具api获取得到的ip地址}
+||disney-plus.net^$dnsrewrite={填入你更具api获取得到的ip地址}
+||disney-portal.my.onetrust.com^$dnsrewrite={填入你更具api获取得到的ip地址}
+||disney.demdex.net^$dnsrewrite={填入你更具api获取得到的ip地址}
+||disney.my.sentry.io^$dnsrewrite={填入你更具api获取得到的ip地址}
+||disneyplus.bn5x.net^$dnsrewrite={填入你更具api获取得到的ip地址}
+||disneyplus.com^$dnsrewrite={填入你更具api获取得到的ip地址}
+||disneyplus.com.ssl.sc.omtrdc.net^$dnsrewrite={填入你更具api获取得到的ip地址}
+||disneystreaming.com^$dnsrewrite={填入你更具api获取得到的ip地址}
+||hulu.jp^$dnsrewrite={填入你更具api获取得到的ip地址}
+```
+
+![image-20250108164426950](image-20250108164426950.png)
+
+返回服务器，并点击设备，更具自己的需求创建设备后会给你专属于自己的ipv6dns服务器和加密服务器地址![image-20250108165035253](image-20250108165035253.png)
+
+更具cloudflare 给出的答案，现在你知道这三个的作用了吗！！！
 
 ### clash :
 
