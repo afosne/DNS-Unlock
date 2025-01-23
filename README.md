@@ -8,8 +8,8 @@
 
 ## 实现步骤
 
-获取方式已经发生变化 我们接下来的请求全部使用post 请求 
-首先是v1版本https://sni.afosne.us.kg/v1 只需要传入一个"country"参数即可获取SNIProxy服务器地址，其次我们增加了批量获取SNIProxy的方式通过请求https://sni.afosne.us.kg/v1s 并传入"country"和"size"参数来选择获取的数量
+获取方式已经发生变化！！！ 
+首先是v1版本https://sni.afosne.us.kg/v1 只需要传入一个"country"参数即可获取SNIProxy服务器地址，其次我们增加了批量获取SNIProxy的方式通过请求https://sni.afosne.us.kg/v1s 并传入"country"和"size"参数来选择获取的数量,我们再次支持了get请求 方式为网址后面添加参数即可 例如 v1 可以通过https://sni.afosne.us.kg/v1/SG 来获取新加坡的SNIproxy v1s可以通过https://sni.afosne.us.kg/v1s/SG/1 即可获得一条数据
 其次我们接入了adguard dns 为搭建提供免费的dns服务
 首先我们需要注册[adguard dns](https://adguard-dns.io/)注册后请求https://sni.afosne.us.kg/adguard 参数需要”username","password","country","domains"等多个参数"username"和"password"为您在adguard dns平台的账号与密码"country"为你需要解锁的国家"domain"为您需要解锁的域名，该请求会返回您所需要的服务器地址并为您免费提供
 
