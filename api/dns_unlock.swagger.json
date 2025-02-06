@@ -1,0 +1,197 @@
+{
+  "info": {
+    "title": "AFOSNE",
+    "description": "",
+    "version": "1.0.0"
+  },
+  "tags": [],
+  "paths": {
+    "/adguard": {
+      "post": {
+        "summary": "adguard",
+        "deprecated": false,
+        "description": "",
+        "tags": [],
+        "parameters": [
+          {
+            "name": "Content-Type",
+            "in": "header",
+            "description": "",
+            "required": false,
+            "type": "string",
+            "x-example": "application/json"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "username": {
+                  "type": "string",
+                  "description": "adguard 账户"
+                },
+                "password": {
+                  "type": "string",
+                  "description": "adguard 密码"
+                },
+                "country": {
+                  "type": "string",
+                  "description": "解锁地区"
+                },
+                "domains": {
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "description": "域名"
+                  },
+                  "description": "解锁域名",
+                  "minItems": 1,
+                  "uniqueItems": true
+                },
+                "api": {
+                  "type": "string",
+                  "x-nullable": true
+                }
+              },
+              "required": [
+                "username",
+                "password",
+                "country",
+                "domains",
+                "api"
+              ]
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {},
+            "schema": {
+              "type": "object",
+              "properties": {}
+            }
+          }
+        },
+        "security": [],
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ]
+      }
+    },
+    "/v1/{country}": {
+      "get": {
+        "summary": "v1",
+        "deprecated": false,
+        "description": "",
+        "tags": [],
+        "parameters": [
+          {
+            "name": "country",
+            "in": "path",
+            "description": "国家(中文和英文缩写)",
+            "required": true,
+            "type": "string",
+            "x-example": "新加坡"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {},
+            "schema": {
+              "type": "object",
+              "properties": {
+                "code": {
+                  "type": "integer"
+                },
+                "country": {
+                  "type": "string"
+                },
+                "city": {
+                  "type": "string"
+                },
+                "use_time": {
+                  "type": "string"
+                },
+                "ip": {
+                  "type": "string"
+                },
+                "isp": {
+                  "type": "string"
+                },
+                "asn": {
+                  "type": "string"
+                },
+                "msg": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "code",
+                "country",
+                "city",
+                "use_time",
+                "ip",
+                "isp",
+                "asn",
+                "msg"
+              ]
+            }
+          }
+        },
+        "security": [],
+        "produces": [
+          "application/json"
+        ]
+      }
+    },
+    "/v1s/{country}/{size}": {
+      "get": {
+        "summary": "v1s",
+        "deprecated": false,
+        "description": "",
+        "tags": [],
+        "parameters": [
+          {
+            "name": "country",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "size",
+            "in": "path",
+            "description": "",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "",
+            "headers": {},
+            "schema": {
+              "type": "object",
+              "properties": {}
+            }
+          }
+        },
+        "security": [],
+        "produces": [
+          "application/json"
+        ]
+      }
+    }
+  },
+  "security": {},
+  "swagger": "2.0",
+  "definitions": {},
+  "securityDefinitions": {},
+  "x-components": {}
+}
