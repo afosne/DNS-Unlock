@@ -16,11 +16,13 @@
 
 请您更具您的需求点击下面的链接地址:
 
-1. [DNS解锁使用DNS - UNLOCK](md\DNS.md)
-2. [本地解锁使用 DNS - UNLOCK](md\Local.md) 
-3. [使用VPS 搭配 DNS - UNLOCK](md\VPS.md) 
+1. [DNS解锁使用DNS - UNLOCK](md/DNS.md)
+2. [本地解锁使用 DNS - UNLOCK](md/Local.md)
+3. [使用VPS 搭配 DNS - UNLOCK](md/VPS.md)
 
 ### 高级用法
 
-我们继续延续了某些用户需要API来实现高级操作采用 [Swagger API](https://swagger.io/) 提供接口方法,请您点击 [dns_unlock.swagger.json](api\dns_unlock.swagger.json) 获取其中的json格式文件用于导入支持Swagger API 的程序来使用.
+我们继续延续了某些用户需要API来实现高级操作采用 [Swagger API](https://swagger.io/)
+提供接口方法,请您点击 [dns_unlock.swagger.json](api/dns_unlock.swagger.json) 获取其中的json格式文件用于导入支持Swagger
+API 的程序来使用.
 
